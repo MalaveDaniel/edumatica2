@@ -7,6 +7,14 @@
 <header>
         <h1>aca estan todas las operaciones de la ultima evaluacion</h1>
 
+        <br>
+    <br>
+
+    <img src="" alt="">
+
+        <br>
+        <br>
+
         <nav>
             <ul>
             <li><a href="{{route("dashboard")}}">home</a></li>

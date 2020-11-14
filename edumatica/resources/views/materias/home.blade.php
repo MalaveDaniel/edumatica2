@@ -17,6 +17,9 @@
             </nav>
     </header>
 
+    <br>
+    <br>
+
     <header>
             <h2>segundo tema</h2>
             <nav>
@@ -28,6 +31,9 @@
             </nav>
     </header>
 
+    <br>
+    <br>
+
     <header>
             <h2>tercer tema</h2>
             <nav>
@@ -38,6 +44,9 @@
                 </ul>
             </nav>
     </header>
+
+    <br>
+    <br>
 
     <header>
             <h2>cuarto</h2>
