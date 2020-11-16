@@ -8,9 +8,30 @@
         <h1>aca estan las respuestas de los ejercicios de Determinantes</h1>
 
         <br>
-         <br>
+        <br>
 
-            <img src="" alt="">
+        <h2>primera respuesta</h2>
+        <img src="{{ asset('imagenes/respuesta1_Det.png') }}" alt="">
+        <br>
+        <br>
+
+        <h2>segunda respuesta</h2>
+        <img src="{{ asset('imagenes/respuesta2_Det.png') }}" alt="">
+        <br>
+        <br>
+
+        <h2>tercera respuesta</h2>
+        <img src="{{ asset('imagenes/respuesta3_Det.png') }}" alt="">
+        <br>
+        <br>
+        
+        <h2>cuarta respuesta</h2>
+        <img src="{{ asset('imagenes/respuesta4_Det.png') }}" alt="">
+        <br>
+        <br>
+        
+        <h2>quinta respuesta</h2>
+        <img src="{{ asset('imagenes/respuesta5_Det.png') }}" alt="">
         <br>
         <br>
 

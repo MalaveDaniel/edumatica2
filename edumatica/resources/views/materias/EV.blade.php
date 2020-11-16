@@ -14,7 +14,11 @@
             <br>
             <br>
 
+            <h2>Formulas</h2>
             <img src="{{ asset('imagenes/formulas_EV.png') }}" alt="">
+
+            <br>
+            <br>
             <img src="{{ asset('imagenes/portada_EV.png') }}" alt="">
 
             <br>

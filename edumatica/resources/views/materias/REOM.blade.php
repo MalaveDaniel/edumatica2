@@ -10,42 +10,42 @@
         <br>
         <br>
 
-        <h2>primer respuesta</h2>
+        <h2>primera respuesta</h2>
         <img src="{{ asset('imagenes/respuesta1_OM.png') }}" alt="">
         <br>
         <br>
 
-        <h2>segundo respuesta</h2>
+        <h2>segunda respuesta</h2>
         <img src="{{ asset('imagenes/respuesta2_OM.png') }}" alt="">
         <br>
         <br>
 
-        <h2>tercer respuesta</h2>
+        <h2>tercera respuesta</h2>
         <img src="{{ asset('imagenes/respuesta3_OM.png') }}" alt="">
         <br>
         <br>
         
-        <h2>cuarto respuesta</h2>
+        <h2>cuarta respuesta</h2>
         <img src="{{ asset('imagenes/respuesta4_OM.png') }}" alt="">
         <br>
         <br>
         
-        <h2>quinto respuesta</h2>
+        <h2>quinta respuesta</h2>
         <img src="{{ asset('imagenes/respuesta5_OM.png') }}" alt="">
         <br>
         <br>
         
-        <h2>sexto respuesta</h2>
+        <h2>sexta respuesta</h2>
         <img src="{{ asset('imagenes/respuesta6_OM.png') }}" alt="">
         <br>
         <br>
         
-        <h2>septimo respuesta</h2>
+        <h2>septima respuesta</h2>
         <img src="{{ asset('imagenes/respuesta7_OM.png') }}" alt="">
         <br>
         <br>
         
-        <h2>octavo respuesta</h2>
+        <h2>octava respuesta</h2>
         <img src="{{ asset('imagenes/respuesta8_OM.png') }}" alt="">
 
         <nav>

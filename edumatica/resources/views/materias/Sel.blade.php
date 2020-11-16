@@ -9,7 +9,7 @@
         <br>
     <br>
 
-        <p></p>
+        <p>Un sistema de ecuaciones lineales es un conjunto de dos o más ecuaciones de primer grado, en el cual se relacionan dos o más incógnitas.</p>
 
         <br>
         <br>
