@@ -8,7 +8,11 @@ module.exports = {
     ],
 
     theme: {
+        
         extend: {
+            container:{
+                center: true,
+              },
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
@@ -16,6 +20,8 @@ module.exports = {
     },
 
     variants: {
+        objectPosition: ['responsive', 'hover', 'focus'],
+        verticalAlign: ['responsive', 'hover', 'focus'],
         opacity: ['responsive', 'hover', 'focus', 'disabled'],
     },
 

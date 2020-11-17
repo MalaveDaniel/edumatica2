@@ -4,58 +4,66 @@
 
 @section('content')
 
-<header>
-        <h1>aca estan las respuestas de los ejercicios de Espacios vectoriales</h1>
+<div class="container">
+        <div class="">
+                <h1>aca estan las respuestas de los ejercicios de Espacios vectoriales</h1>
 
-        <br>
-        <br>
-
-        <h2>primera respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta1_EV.png') }}" alt="">
-        <br>
-        <br>
-
-        <h2>segunda respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta2_EV.png') }}" alt="">
-        <br>
-        <br>
-
-        <h2>tercera respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta3_EV.png') }}" alt="">
-        <br>
-        <br>
+                <br>
+                <br>
         
-        <h2>cuarta respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta4_EV.png') }}" alt="">
-        <br>
-        <br>
-        
-        <h2>quinta respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta5_EV.png') }}" alt="">
-        <br>
-        <br>
-        
-        <h2>sexta respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta6_EV.png') }}" alt="">
-        <br>
-        <br>
-        
-        <h2>septima respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta7_EV.png') }}" alt="">
-        <br>
-        <br>
-        
-        <h2>octava respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta8_EV.png') }}" alt="">
+                <div class="grid grid-cols-4">
+                        <h2>primera respuesta</h2>
+                        <img src="{{ asset('imagenes/respuesta1_EV.png') }}" alt="">
 
-        <br>
-        <br>
 
-        <h2>novena respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta9_EV.png') }}" alt="">
+                
+                        <h2>segunda respuesta</h2>
+                        <img src="{{ asset('imagenes/respuesta2_EV.png') }}" alt="">
 
-        <br>
-        <br>
+
+                
+                        <h2>tercera respuesta</h2>
+                        <img src="{{ asset('imagenes/respuesta3_EV.png') }}" alt="">
+
+
+                        
+                        <h2>cuarta respuesta</h2>
+                        <img src="{{ asset('imagenes/respuesta4_EV.png') }}" alt="">
+
+
+                        
+                        <h2>quinta respuesta</h2>
+                        <img src="{{ asset('imagenes/respuesta5_EV.png') }}" alt="">
+
+
+                        
+                        <h2>sexta respuesta</h2>
+                        <img src="{{ asset('imagenes/respuesta6_EV.png') }}" alt="">
+
+
+                        
+                        <h2>septima respuesta</h2>
+                        <img src="{{ asset('imagenes/respuesta7_EV.png') }}" alt="">
+
+
+                        
+                        <h2>octava respuesta</h2>
+                        <img src="{{ asset('imagenes/respuesta8_EV.png') }}" alt="">
+                
+
+
+                
+                        <h2>novena respuesta</h2>
+                        <img src="{{ asset('imagenes/respuesta9_EV.png') }}" alt="">
+                
+
+
+                </div>
+                
+    </div>
+        
+</div>
+
 
         <nav>
             <ul>
@@ -65,5 +73,5 @@
                 
             </ul>
         </nav>
-</header>
+
 @endsection

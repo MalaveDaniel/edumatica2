@@ -4,36 +4,40 @@
 
 @section('content')
 
-<header>
-        <h1>aca estan las respuestas de los ejercicios de Determinantes</h1>
+<div class="container">
+    <div class="">
+            <h1>aca estan las respuestas de los ejercicios de Determinantes</h1>
 
-        <br>
-        <br>
+            <br>
+            <br>
 
-        <h2>primera respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta1_Det.png') }}" alt="">
-        <br>
-        <br>
-
-        <h2>segunda respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta2_Det.png') }}" alt="">
-        <br>
-        <br>
-
-        <h2>tercera respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta3_Det.png') }}" alt="">
-        <br>
-        <br>
+            <div class="grid grid-cols-4">
+                    <h2>primera respuesta</h2>
+                    <img src="{{ asset('imagenes/respuesta1_Det.png') }}" alt="">
+                   
+            
+                    <h2>segunda respuesta</h2>
+                    <img src="{{ asset('imagenes/respuesta2_Det.png') }}" alt="">
+                    
+            
+                    <h2>tercera respuesta</h2>
+                    <img src="{{ asset('imagenes/respuesta3_Det.png') }}" alt="">
+                   
+                    
+                    <h2>cuarta respuesta</h2>
+                    <img src="{{ asset('imagenes/respuesta4_Det.png') }}" alt="">
+                    
+                    
+                    <h2>quinta respuesta</h2>
+                    <img src="{{ asset('imagenes/respuesta5_Det.png') }}" alt="">
+                    
+            </div>
+    
+            
+    </div>
         
-        <h2>cuarta respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta4_Det.png') }}" alt="">
-        <br>
-        <br>
+</div>
         
-        <h2>quinta respuesta</h2>
-        <img src="{{ asset('imagenes/respuesta5_Det.png') }}" alt="">
-        <br>
-        <br>
 
         <nav>
             <ul>
@@ -43,7 +47,7 @@
                 
             </ul>
         </nav>
-</header>
+
 @endsection
 
 
