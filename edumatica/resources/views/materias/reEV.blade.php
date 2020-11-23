@@ -5,8 +5,8 @@
 @section('content')
 
 <div class="container">
-        <div class="">
-                <h1>aca estan las respuestas de los ejercicios de Espacios vectoriales</h1>
+        <div class="text-white">
+                <h1 class="text-center align-middle object-center ">aca estan las respuestas de los ejercicios de Espacios vectoriales</h1>
 
                 <br>
                 <br>
@@ -60,18 +60,20 @@
 
                 </div>
                 
+                <div class="text-center align-middle object-center ">
+                
+                        <nav>
+                            <ul>
+                            <li><a href="{{route("dashboard")}}">home</a></li>
+                            <li><a href="{{route('EV')}}">Espacios vectoriales</a></li>
+                            <li><a href="{{route('ejercicios_EV')}}">ejercicios de Espacios vectoriales</a></li>
+                                
+                            </ul>
+                        </nav>
+                </div>
     </div>
         
 </div>
 
-
-        <nav>
-            <ul>
-            <li><a href="{{route("dashboard")}}">home</a></li>
-            <li><a href="{{route('EV')}}">Espacios vectoriales</a></li>
-            <li><a href="{{route('ejercicios_EV')}}">ejercicios de Espacios vectoriales</a></li>
-                
-            </ul>
-        </nav>
 
 @endsection

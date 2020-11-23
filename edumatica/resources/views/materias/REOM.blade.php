@@ -4,22 +4,24 @@
 
 @section('content')
 
-<header>
-        <h1>aca estan las respuestas de los ejercicios de Operaciones con matrices</h1>
+<div class="text-white">
 
-        <br>
-        <br>
+    <h1 class="text-center align-middle object-center ">aca estan las respuestas de los ejercicios de Operaciones con matrices</h1>
+
+    <br>
+    <br>
+    <div class="">
 
         <h2>primera respuesta</h2>
         <img src="{{ asset('imagenes/respuesta1_OM.png') }}" alt="">
         <br>
         <br>
-
+    
         <h2>segunda respuesta</h2>
         <img src="{{ asset('imagenes/respuesta2_OM.png') }}" alt="">
         <br>
         <br>
-
+    
         <h2>tercera respuesta</h2>
         <img src="{{ asset('imagenes/respuesta3_OM.png') }}" alt="">
         <br>
@@ -47,6 +49,9 @@
         
         <h2>octava respuesta</h2>
         <img src="{{ asset('imagenes/respuesta8_OM.png') }}" alt="">
+    </div>
+
+    <div class="text-center align-middle object-center ">
 
         <nav>
             <ul>
@@ -56,5 +61,7 @@
                 
             </ul>
         </nav>
-</header>
+    </div>
+</div>
+
 @endsection

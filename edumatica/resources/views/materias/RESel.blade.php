@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="container">
+<div class="container text-white">
     
     <div class="">
         <h1 class="text-center align-middle object-center">aca estan las respuestas de los ejercicios de Sistema de ecuaciones lineales</h1>
@@ -39,7 +39,7 @@
 </div>
     </div>
            
-<div class="text-center align-middle object-center">
+<div class="text-center align-middle object-center text-white">
     <nav>
         <ul>
         <li><a href="{{route("dashboard")}}">home</a></li>

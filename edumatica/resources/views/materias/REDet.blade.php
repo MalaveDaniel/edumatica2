@@ -5,8 +5,8 @@
 @section('content')
 
 <div class="container">
-    <div class="">
-            <h1>aca estan las respuestas de los ejercicios de Determinantes</h1>
+    <div class="text-white">
+            <h1 class="text-center align-middle object-center">aca estan las respuestas de los ejercicios de Determinantes</h1>
 
             <br>
             <br>
@@ -38,15 +38,17 @@
         
 </div>
         
-
-        <nav>
-            <ul>
-            <li><a href="{{route("dashboard")}}">home</a></li>
-            <li><a href="{{route('Det')}}">determinantes</a></li>
-            <li><a href="{{route('EDet')}}">ejercicios de determinantes</a></li>
-                
-            </ul>
-        </nav>
+        <div class="text-center align-middle object-center text-white">
+                <nav>
+                        <ul>
+                        <li><a href="{{route("dashboard")}}">home</a></li>
+                        <li><a href="{{route('Det')}}">determinantes</a></li>
+                        <li><a href="{{route('EDet')}}">ejercicios de determinantes</a></li>
+                            
+                        </ul>
+                    </nav>
+        </div>
+        
 
 @endsection
 
