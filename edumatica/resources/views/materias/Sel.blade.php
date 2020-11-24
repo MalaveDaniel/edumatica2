@@ -5,7 +5,7 @@
 @section('content')
 <div class="text-white">
 
-    <h1 class="text-center align-middle object-center">aca puedes ver Sistema de ecuaciones lineales</h1>
+    <h1 class="text-center align-middle object-center">Aca puedes ver Sistema de ecuaciones lineales</h1>
 
     <br>
 <br>
@@ -15,12 +15,17 @@
     <br>
     <br>
 
-    <h2 class="text-center align-middle object-center">metodo de resolucion</h2>
+    <h2 class="text-center align-middle object-center">Metodo de resolucion</h2>
     
-            <p class="text-center align-middle object-center">La regla de Cramer proporciona la solución de sistemas de ecuaciones lineales compatibles determinados (con una única solución) mediante el cálculo de determinantes. Se trata de un método muy rápido para resolver sistemas, sobre todo, para sistemas de dimensión 2x2 y 3x3.</p>
 
                 <br>
                 <br>
+                <div class="grid grid-cols-2">
+
+                    <img src="{{ asset('imagenes/formula1_Sel.png') }}" alt="">
+                    <img src="{{ asset('imagenes/formula2_Sel.png') }}" alt="">
+                </div>
+
             <div class="text-center align-middle object-center">
                 <nav>
                     <ul>
